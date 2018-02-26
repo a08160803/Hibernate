@@ -1,0 +1,9 @@
+drop table pic;
+
+create table pic(
+	id int AUTO_INCREMENT not null primary key,
+	name varchar(225),
+	picture LONGBLOB
+);
+
+select * from pic;
